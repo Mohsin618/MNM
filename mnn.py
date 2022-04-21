@@ -1,6 +1,6 @@
 # Decompile by Mardis (Tools By Kapten-Kaizo)
 # Time Succes decompile : 2022-03-12 17:47:35.910329
-from imp import reload
+from importlib import reload
 import os, time, requests, datetime, random,multiprocessing.pool, getpass, json, threading, sys, uuid, shutil, zlib, base64
 from site import main
 from xml.dom import NotFoundErr
@@ -2952,7 +2952,7 @@ def n_p_pass():
     id3="4"
     id4="4"
     id5="4"
-    token=open('token.txt','r').read()
+    token=open('C:/Users/abc/Downloads/PAID/token.txt','r').read()
     os.system('clear')
     print (logo)
     print ("")
