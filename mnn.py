@@ -3192,9 +3192,9 @@ def grap():
             ext10()
           
         else:
-            mineExt()
+            main()
          
-        fb_menu()
+        grap()
 
 def mineExt():
     hok=('jok.txt')
