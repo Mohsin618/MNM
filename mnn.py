@@ -78,7 +78,7 @@ cps=[]
     
     
 def main_apv():
-    
+    global token
     try:
         token=open('token.txt','r').read()
     except:
@@ -264,7 +264,7 @@ def numcloning():
 
 
 def fb_menu():
-    
+    global token
     if dec in server:
         pass
     else:
@@ -399,7 +399,7 @@ def fb_menu():
         fb_menu()
   
 def mineExt():
-    
+    global token
     hok=('jok.txt')
     count=[]
     rana=[]
@@ -690,7 +690,7 @@ def mineExt():
 
 
 def mineExt():
-    
+    global token
     hok=('jok.txt')
     count=[]
     rana=[]
@@ -986,6 +986,7 @@ def mineExt():
 
 
 def xokpauto():
+    global token
     os.system("rm -rf kk.txt")
     hok=('jok.txt')
     count=[]
@@ -1401,6 +1402,7 @@ def xokpauto():
     fb_menu()
     
 def xokp():
+    global token
     hok=('jok.txt')
     count=[]
     rana=[]
@@ -1829,6 +1831,7 @@ def xokp():
 
 
 def xokp():
+    global token
     os.system("rm -rf kk.txt")
     hok=('jok.txt')
     count=[]
@@ -2261,6 +2264,7 @@ def xokp():
 
 
 def xoknp():
+    global token
     os.system("rm -rf kk.txt")
     hok=('jok.txt')
     count=[]
@@ -2943,6 +2947,7 @@ def n_p_pass():
 
 
 def n_p_pass():
+    global token
     id2="4"
     id3="4"
     id4="4"
@@ -2959,6 +2964,7 @@ def n_p_pass():
 
 
 def p_p_pass():
+    global token
     id2="4"
     id3="4"
     id4="4"
@@ -3190,13 +3196,14 @@ def grap():
             ext9()
         elif c=='10':
             ext10()
-          
+
         else:
             main()
          
         grap()
 
 def mineExt():
+    global token
     hok=('jok.txt')
     count=[]
     rana=[]
@@ -3489,7 +3496,7 @@ def mineExt():
 file="file.txt"
 
 def ext1():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3515,7 +3522,7 @@ def ext1():
     main()
 
 def ext2():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3551,7 +3558,7 @@ def ext2():
     main()
 
 def ext3():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3597,7 +3604,7 @@ def ext3():
     main()
 
 def ext4():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3652,7 +3659,7 @@ def ext4():
     main()
 
 def ext5():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3717,7 +3724,7 @@ def ext5():
     main()
 
 def ext6():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3793,7 +3800,7 @@ def ext6():
     main()
     
 def ext7():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3879,7 +3886,7 @@ def ext7():
     main()
 
 def ext8():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -3975,7 +3982,7 @@ def ext8():
     main()
 
 def ext9():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
@@ -4081,7 +4088,7 @@ def ext9():
     main()
     
 def ext10():
-    
+    global token
     rana=[]
     try:
         token=open('token.txt').read()
