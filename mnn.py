@@ -1670,7 +1670,7 @@ def n_p_pass():
     id3="4"
     id4="4"
     id5="4"
-    token=open('D:\Zero\token.txt','r').read()
+    token=open('token.txt','r').read()
     os.system('clear')
     print (logo)
     print ("")
