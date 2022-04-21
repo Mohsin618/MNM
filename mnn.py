@@ -395,7 +395,7 @@ def fb_menu():
     elif cz=="4":
         mineExt()
     else:
-        main()
+        fb_menu()
 
 
 def mineExt():
